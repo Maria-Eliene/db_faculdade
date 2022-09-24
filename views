@@ -1,0 +1,20 @@
+
+CREATE VIEW vw_aluno_curso_disciplina AS
+SELECT 	a.RA, CONCAT(a.nome_aluno,' ' , a.sobrenome_aluno) Aluno,  
+		c.cod_curso, c.nome_curso Curso,
+        d.nome_disciplina Disciplina
+FROM aluno a
+JOIN curso c 
+	ON c.cod_curso = a.fk_cod_curso
+JOIN disciplina d 
+	ON c.cod_curso = d.cod_disciplina
+ORDER BY RA;
+
+
+CREATE VIEW vw_professor_departamento AS
+SELECT 	p.cod_professor, CONCAT(p.nome_professor,' ' , p.sobrenome_professor) Professor ,
+		d.cod_departamento, d.nome_departamento 
+FROM professor p 
+JOIN departamento d 
+	ON p.cod_professor = d.cod_departamento;
+
