@@ -23,36 +23,26 @@ A atividade consiste na criação de um banco de dados para uma faculdade. O pro
 
 Modelo Conceitual:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Modelo Conceitual:
-
 ![Conceitual_db_faculdade](https://user-images.githubusercontent.com/112898303/192119876-131b7bbb-eab5-4265-a57c-7c482305c3a8.png)
+
+
+Modelo lógico:
+
+![Logico_db_faculdade](https://user-images.githubusercontent.com/112898303/192120330-2a533da4-27fe-447b-b96f-2073abbc30da.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
